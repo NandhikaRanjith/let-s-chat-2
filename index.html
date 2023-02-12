@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center>
+        <h1 style="color:lightpink; font-style: italic; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Let's Chat!</h1>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+<script src="kwitter.css"></script>
+    </head>
+    <br>
+    <br>
+    <br>
+    <body style="background-color: azure; border-width:10px; border-color: gold; border-style:double">
+        <h2> Username: </h2>
+        <br>
+        <input type="text" id="user_name" class="form_control" placeholder="Username">
+        <br>
+        <br>
+        <br>
+        <button id="login_button" class="btn btn-primary" onclick="addUser()"">Log in</button>
+        <br>
+        <br>
+        <button id="logout_button" class="btn btn-primary" onclick="removeUser()"">Log out</button>
+        <br>
+        <br>
+        <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+<br>
+<br>
+<button onclick="addRoom();" class="btn btn-success">#Add Room</button>
+<br>
+<br>
+        <img src="https://i.pinimg.com/originals/7f/6f/47/7f6f477a94cd68fa4f441457af4c8ca1.gif">
+    </body>
+    </center>
+</html>
